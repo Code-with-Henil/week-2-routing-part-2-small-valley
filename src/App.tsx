@@ -7,8 +7,8 @@ import Services from "./components/Services";
 import Contact from "./components/Contact";
 import Recipes from "./components/Recipes";
 import SignUp from "./components/SignUp";
-// import Wellcome from "./components/Wellcome";
-// import LogIn from "./components/LogIn";
+import Wellcome from "./components/Wellcome";
+import LogIn from "./components/LogIn";
 import Dashboard from "./components/Dashboard";
 import Shopping from "./components/Shopping";
 import Foods from "./components/Foods";
@@ -29,8 +29,8 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/recipes/:recipe" element={<Recipes />} />
                 <Route path="/sign-up" element={<SignUp />} />
-                {/* <Route path="/wellcome" element={<Wellcome />} />
-                <Route path="/log-in" element={<LogIn />} /> */}
+                <Route path="/wellcome" element={<Wellcome />} />
+                <Route path="/log-in" element={<LogIn />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/shopping" element={<Shopping />}>
                     <Route path="foods" element={<Foods />}>
